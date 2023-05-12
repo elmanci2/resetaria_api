@@ -1,0 +1,24 @@
+my-app/
+|-- src/
+|   |-- config/
+|   |   |-- config.js          // Archivo de configuración de la aplicación
+|   |-- data/
+|   |   |-- models/            // Modelos de datos de la aplicación
+|   |   |-- repositories/      // Repositorios para acceder a la base de datos
+|   |-- domain/
+|   |   |-- entities/          // Entidades de dominio de la aplicación
+|   |   |-- usecases/          // Casos de uso de la aplicación
+|   |-- interfaces/
+|   |   |--gql/
+|   |   |-- controllers/       // Controladores para manejar las peticiones HTTP
+|   |   |-- middlewares/       // Middlewares para el manejo de peticiones HTTP
+|   |   |-- routes/            // Rutas de la aplicación
+|   |-- services/
+|   |   |-- logger.js          // Servicio de registro de eventos
+|   |-- utils/
+|   |   |-- errors.js          // Manejo de errores personalizados
+|-- .env                      // Archivo de variables de entorno
+|-- .gitignore                 // Archivo de configuración de Git para ignorar archivos y carpetas
+|-- app.js                     // Punto de entrada de la aplicación
+|-- package.json               // Archivo de configuración de dependencias y scripts de la aplicación
+|-- README.md                  // Documentación del proyecto
